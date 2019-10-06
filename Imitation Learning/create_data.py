@@ -136,9 +136,7 @@ def start_playing(num_samples):
             
     # max_frames complete
     np.save('../Data/frames.npy', x)
-    Y = pd.DataFrame(y)
-    Y.columns = ['left', 'right', 'up', 'down', 'no_key']
-    Y.to_csv('../Data/controls.csv') 
+    np.save('../Data/controls.csv', y) 
 
 
 if __name__ == '__main__':
