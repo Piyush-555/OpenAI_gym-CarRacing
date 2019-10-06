@@ -1,5 +1,6 @@
-Models/
-Data/
+Models/*
+Data/*
 *.npy
 *.csv
+.ipynb_checkpoints/*
 
